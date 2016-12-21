@@ -6,8 +6,8 @@ services:
       - "../.data/db:/var/lib/mysql"
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: wordpress
-      MYSQL_DATABASE: wordpress
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: root
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
 
